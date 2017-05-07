@@ -69,7 +69,7 @@
   height: 3px;
   background-color: #FFF;
   transition: all .5s ease-out;
-  transform-origin: 50% 50%;
+  transform-origin: 50%   50%;
   }
 
   &::after {
