@@ -1,8 +1,8 @@
-var gulg = require('gulp'),
+var gulp = require('gulp'),
  webpack = require('webpack');
 
 
-gulg.task('scripts', function(callback) {
+gulp.task('scripts',['modernizr'], function(callback) {
   webpack(require('../../webpack.config.js'), function(err, stats) {
     if(err) {
       console.log(err.toString());
