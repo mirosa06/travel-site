@@ -24,7 +24,6 @@ class Adult extends Person {
   }
 };
 
-
 alert("ABC 321");
 
 var john = new Person("John Doe ", "blue");
